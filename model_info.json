@@ -1,0 +1,83 @@
+{
+  "model": "Logistic Regression",
+  "features": [
+    "isi_1",
+    "isi_2",
+    "isi_3",
+    "isi_4",
+    "isi_5",
+    "isi_6",
+    "isi_7",
+    "pss_2",
+    "pss_3",
+    "pss_14",
+    "pss_1",
+    "age",
+    "gender",
+    "smoke",
+    "drink"
+  ],
+  "sleep_questions": {
+    "columns": [
+      "isi_1",
+      "isi_2",
+      "isi_3",
+      "isi_4",
+      "isi_5",
+      "isi_6",
+      "isi_7"
+    ],
+    "answer_range": [
+      0,
+      4
+    ]
+  },
+  "stress_questions": {
+    "columns": [
+      "pss_2",
+      "pss_3",
+      "pss_14",
+      "pss_1"
+    ],
+    "answer_range": [
+      1,
+      5
+    ]
+  },
+  "age_range": [
+    16,
+    40
+  ],
+  "categories": {
+    "gender": [
+      "female",
+      "male"
+    ],
+    "smoke": [
+      "current smoker (cumulative smoking >10 packs)",
+      "former smoker (cumulative smoking >10 packs), but not in the past year",
+      "never smokes",
+      "occasional smoker (cumulative smoking <10 packs)"
+    ],
+    "drink": [
+      "current regular drinker (more than once a week)",
+      "drank in the past (more than once a week), but not in the past year",
+      "drinks occasionally (less than once a week)",
+      "never drinks"
+    ]
+  },
+  "risk_levels": {
+    "steady": [
+      0,
+      40
+    ],
+    "disturbed": [
+      40,
+      60
+    ],
+    "needs_attention": [
+      60,
+      100
+    ]
+  }
+}
