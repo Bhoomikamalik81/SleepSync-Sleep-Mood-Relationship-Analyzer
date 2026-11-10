@@ -1,3 +1,21 @@
-# Ignore trained ML models
-*.pkl
-*.joblib
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Dataset and survey records
+dataset/
+cleaned_data.csv
